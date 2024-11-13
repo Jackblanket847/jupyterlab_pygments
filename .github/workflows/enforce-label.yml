@@ -5,7 +5,8 @@ on:
     types: [labeled, unlabeled, opened, edited, synchronize]
 jobs:
   enforce-label:
-    runs-on: ubuntu-latest
+    runs-on: self hosted
+             macos
     permissions:
       pull-requests: write
     steps:
